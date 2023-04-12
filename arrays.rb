@@ -16,3 +16,9 @@ my_floats.push(13.37)
 
 # Calling the SHIFT method on the my_booles array will remove the first element from that array.
 my_booles.shift
+
+# Index positions
+# Arrays are 0 - indexed. That means array elements are counted, left to right, starting qith the number 0.
+# Therefore, the first element will always be at index - 0, with the second element at index - 1 ect.
+puts my_strings[2] # This code will print the third element in the my_strings array.
+
